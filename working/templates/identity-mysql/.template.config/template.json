@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "iGoCode Ltd.",
+    "classifications": [ "Web", "MVC/MySQL/Identity/RoleManager" ],
+    "identity": "iGoCode.FreeMVC",
+    "name": "iGoCode: Free MVC template, using MySQL",
+    "shortName": "freemvc",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+  }
