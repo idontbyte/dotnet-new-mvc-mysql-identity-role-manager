@@ -21,3 +21,11 @@ Next apply the migration to your database by using the dotnet-ef tool:
 
 Once you have registered, visit the role manager and add the Administrator role.
 Add yourself to the Administrator role and then remove the commented protection of the role controller.
+
+### Build the front end
+
+/frontend folder
+```npm install```
+```gulp```
+
+All JS / CSS is minified and copied to .../wwwroot where it is merged to single files.
