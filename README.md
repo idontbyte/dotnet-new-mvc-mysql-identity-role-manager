@@ -3,9 +3,17 @@ A quick start on the road to great software free from Microsoft licenses.
 
 ## Getting Started
 
-### Install the template
+### From SRC - Install the template
 
 From working/templates/identity-mysql$ run ```dotnet new --install ./``` or .\ on windows.
+
+#### Build the Nuget Package
+
+From working/ ```dotnet pack --configuration Release```
+
+### From Nuget - Install the template
+
+```dotnet new --install iGoCode.FreeMVC.Template.X.X.X.nupkg```
 
 ### Create your project
 
