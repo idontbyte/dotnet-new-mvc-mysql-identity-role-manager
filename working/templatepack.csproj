@@ -2,12 +2,15 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.0</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <PackageId>iGoCode.FreeMVC.Template</PackageId>
     <Title>iGoCode FreeMVC Template</Title>
     <Authors>iGoCode Ltd.</Authors>
     <Description>A dotnet new template that incorporates dotnet mvc, identity, mysql, a role manager and a front end scss/js project.</Description>
     <PackageTags>dotnet-new;templates;mvc;identity;mysql</PackageTags>
+  
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
 
     <TargetFramework>netstandard2.0</TargetFramework>
 
@@ -16,6 +19,9 @@
     <ContentTargetFolders>content</ContentTargetFolders>
     <NoWarn>$(NoWarn);NU5128</NoWarn>
     <NoDefaultExcludes>true</NoDefaultExcludes>
+
+    <RepositoryUrl>https://github.com/idontbyte/dotnet-new-mvc-mysql-identity-role-manager</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
