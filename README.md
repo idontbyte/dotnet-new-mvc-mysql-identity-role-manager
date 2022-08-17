@@ -15,6 +15,10 @@ From working/ ```dotnet pack --configuration Release```
 
 ```dotnet new --install iGoCode.FreeMVC.Template.X.X.X.nupkg```
 
+### From dotnet new nuget package repository
+
+```dotnet new --install iGoCode.FreeMVC.Template::1.0.2```
+
 ### Create your project
 
 dotnet new freemvc -n myfoldername
